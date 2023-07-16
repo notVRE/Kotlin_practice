@@ -7,7 +7,10 @@
     <option name="apiVersion" value="1.8" />
     <option name="languageVersion" value="1.8" />
   </component>
+  <component name="KotlinCompilerSettings">
+    <option name="outputDirectoryForJsLibraryFiles" value="C:\Program Files\kotlinc" />
+  </component>
   <component name="KotlinJpsPluginSettings">
-    <option name="version" value="1.8.20-release" />
+    <option name="version" value="1.8.21-release-380" />
   </component>
 </project>
