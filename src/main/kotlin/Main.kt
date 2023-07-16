@@ -101,7 +101,7 @@ fun main() {
 //    if (time in workTime && time !in lunchTime){
 //        println("true")
 //    }else {
-//        println("true")
+//        println("false")
 //    }
     // For loop and ranges
 //    val a = readln().toInt()
@@ -112,4 +112,60 @@ fun main() {
 //        sum += i
 //    }
 //    println(sum)
+
+//    val a = readln().toInt()
+//    val b = readln().toInt()
+//    val c = readln().toInt()
+//    val d = readln().toInt()
+//
+//    var x = 0..1000
+//    for (i in x){
+//
+//        if (a * (i * i *i) + b *(i * i) + c * (i) + d == 0){
+//            println(i)
+//        }
+//    }
+//
+    //fizz buzz
+//    val n1 = readln().toInt()
+//    val n2 = readln().toInt()
+//    val n = n1 .. n2
+//
+//    for (i in n){
+//        if (i % 3 == 0 && i % 5 == 0) {
+//            println("FizzBuzz")
+//        } else if (i % 3 == 0) {
+//            println("Fizz")
+//        } else if (i % 5 == 0) {
+//            println("Buzz")
+//        } else {
+//            println(i)
+//        }
+//    }
+
+    //The sum of N numbers
+//    val rep = readln().toInt()
+//    var result = 0
+//
+//    repeat(rep) {
+//        val n1 = readln().toInt()
+//        result += n1
+//    }
+//    println(result)
+
+    //Check the order
+//    var value = "YES"
+//    var min = Int.MIN_VALUE
+//    val n = readln().toInt()
+//    for (i in 1..n){
+//        val sc = readln().toInt()
+//        if (min > sc){
+//            value = "NO"
+//            break
+//        }
+//        min = sc
+//    }
+//    println(value)
+
 }
+
